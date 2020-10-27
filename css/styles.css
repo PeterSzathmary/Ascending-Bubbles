@@ -1,30 +1,30 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  overflow: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .container {
-  width: 100%;
-  margin: 0 auto;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .description {
-  position: absolute;
-  top: 40px;
-  left: 40px;
-  z-index: 1;
-  color: white;
-  background-color: rgba(80, 80, 80, 0.3);
-  border: 1px solid black;
-  border-radius: 35%;
-  padding: 50px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    z-index: 1;
+    color: white;
+    background-color: rgba(80, 80, 80, 0.3);
+    border: 1px solid black;
+    border-radius: 35%;
+    padding: 50px;
 }
 
 @media screen and (max-width: 900px) {
-  .description {
-    /* border-radius: 10%;
-    padding: 20px; */
-  }
+    .description {
+        /* border-radius: 10%;
+        padding: 20px; */
+    }
 }
